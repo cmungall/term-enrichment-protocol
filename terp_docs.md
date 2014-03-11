@@ -13,7 +13,7 @@ standard REST interface.
 
 See:
 
- * enrichment_api.md
+ * [terp_docs.mdenrichment_api.md](/cmungall/term-enrichment-protocol/blob/master/terp_docs.mdenrichment_api.md)
 
 ## Fetch Metadata API
 
