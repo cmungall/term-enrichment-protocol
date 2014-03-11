@@ -1,0 +1,45 @@
+{
+    "@base": "http://geneontology.org/",
+    "id": "@id",
+    "type": {
+        "@id": "rdf:type",
+        "@type": "@id"
+    },
+    "obo": "http://purl.obolibrary.org/obo/",
+    "STATO": "http://purl.obolibrary.org/obo/STATO_",
+    "PMID": "http://www.ncbi.nlm.nih.gov/pubmed/",
+    "ECO": "http://purl.obolibrary.org/obo/ECO_",
+    "RO": "http://purl.obolibrary.org/obo/RO_",
+    "BFO": "http://purl.obolibrary.org/obo/BFO_",
+    "dc": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "label": "rdfs:label",
+    "comment": "rdfs:comment",
+    "description": "dc:description",
+    "email": "foaf:mbox",
+    "depiction": {
+        "@id": "foaf:depiction",
+        "@type": "@id"
+    },
+    "title": "dc:title",
+    "source": "dc:source",
+    "website": {
+        "@id": "foaf:homepage",
+        "@type": "@id"
+    },
+    "Class": "owl:Class",
+    "created": {
+        "@id": "dc:created",
+        "@type": "xsd:dateTime"
+    },
+    "creator": {
+        "@id": "dc:creator",
+        "@type": "@id"
+    },
+    "Association": "SIO:000897",
+    "reference": "dc:publication"
+}
