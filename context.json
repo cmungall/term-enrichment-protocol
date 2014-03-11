@@ -7,6 +7,7 @@
     },
     "obo": "http://purl.obolibrary.org/obo/",
     "STATO": "http://purl.obolibrary.org/obo/STATO_",
+    "OBI": "http://purl.obolibrary.org/obo/OBI_",
     "PMID": "http://www.ncbi.nlm.nih.gov/pubmed/",
     "ECO": "http://purl.obolibrary.org/obo/ECO_",
     "RO": "http://purl.obolibrary.org/obo/RO_",
@@ -41,5 +42,8 @@
         "@type": "@id"
     },
     "Association": "SIO:000897",
-    "reference": "dc:publication"
+    "reference": "dc:publication",
+
+    "Westfall_Young": "OBI:0200092",
+    "Holm_Bonferroni": "OBI:0200066",
 }

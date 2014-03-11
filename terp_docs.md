@@ -38,10 +38,30 @@ See:
 
 ## JSON-LD context
 
+See http://www.w3.org/TR/json-ld/ for documentation on JSON-LD
+
+We use JSON-LD to provide a formal semantics for parameter values and
+result objects. For example, the JSON-LD context contains the mapping:
+
+    "Holm_Bonferroni": "OBI:0200066",
+    "p_value": "OBI:0000175",
+
+This means that when the string "Holm_Bonferroni" is used (for
+example, as the value of the "correction" parameter) then the meaning
+of this is the same as: http://purl.obolibrary.org/obo/OBI_0200066
+
+Similarly, the key "p_value" when used in a JSON object is mapped to:
+http://purl.obolibrary.org/obo/OBI_0000175
+
+Note that the JSON payload specified in results_in_json.md can be
+passed directly through a generic JSON-LD to RDF converter to produce
+valid RDF.
+
 See:
 
  * context.json
 
+TODO: provide a stable URL for the context
 
 
 
