@@ -1,10 +1,10 @@
 
 The documentation is split into 4 parts:
 
- * An analysis API, that documents the http parameters used in making requests
- * A fetch metadata API, that allows clients to determine the capabilities of an implemtor service
- * Documentation on the JSON payload
- * Additional documentation on the JSON-LD context that maps the JSON payload to RDF
+ * An *analyze gene set API*, that documents the http parameters used in making requests
+ * A *metadata retrieval API*, that allows clients to determine the capabilities of an implemtor service
+ * Documentation on the *JSON payload*
+ * Additional documentation on the [JSON-LD](http://www.w3.org/TR/json-ld) context that maps the JSON payload to RDF and ontology terms
 
 ## Analysis API
 

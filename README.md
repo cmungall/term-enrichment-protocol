@@ -35,7 +35,7 @@ implementations, yet more extensible for advanced uses.
 
 See:
 
- * terp_docs.md
+ * [terp_docs.md](https://github.com/cmungall/term-enrichment-protocol/blob/master/terp_docs.md)
 
 
 ## History
