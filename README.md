@@ -32,6 +32,12 @@ http://beta.geneontology.org
 The protocol is designed to be simple to implement for basic
 implementations, yet more extensible for advanced uses.
 
+## Default GO client
+
+The protocol allows any client to connected to any server provided the
+server implements the protocol. In addition, downstream components can
+be hooked in - e.g. a 3rd party visualization can be hooked.
+
 ## Documentation
 
 See:
