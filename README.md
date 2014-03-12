@@ -37,6 +37,18 @@ See:
 
  * [terp_docs.md](https://github.com/cmungall/term-enrichment-protocol/blob/master/terp_docs.md)
 
+## Examples
+
+See the examples/ directory
+
+Check back later for more examples - or better yet, submit samples from your tool here!
+
+## Scripts and utilities
+
+See the util/ directory
+
+This contains standalone scripts for wrapping existing tools
+
 
 ## History
 
