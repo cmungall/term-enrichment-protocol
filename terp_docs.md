@@ -13,7 +13,7 @@ standard REST interface.
 
 See:
 
- * [enrichment_api.md](https://github.com/cmungall/term-enrichment-protocol/blob/master/enrichment_api.md)
+ * [enrichment_api.md](enrichment_api.md)
 
 ## Fetch Metadata API
 
@@ -24,7 +24,7 @@ the client, it can drive the client-side user interface appropriately.
 
 See:
 
- * [metadata_api.md](https://github.com/cmungall/term-enrichment-protocol/blob/master/metadata_api.md)
+ * [metadata_api.md](metadata_api.md)
 
 ## JSON payload
 
@@ -34,7 +34,7 @@ to the client.
 
 See:
 
- * [results_in_json.md](https://github.com/cmungall/term-enrichment-protocol/blob/master/results_in_json.md)
+ * [results_in_json.md](results_in_json.md)
 
 ## JSON-LD context
 
@@ -59,7 +59,7 @@ valid RDF.
 
 See:
 
- * [context.json](https://github.com/cmungall/term-enrichment-protocol/blob/master/context.json)
+ * [context.json](context.json)
  
 TODO: provide a stable URL for the context
 
