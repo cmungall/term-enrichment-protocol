@@ -31,7 +31,7 @@ TODO - consider websockets?
 
 See the following doc:
 
- * results_in_json.md
+ * [results_in_json.md](results_in_json.md)
 
 ## HTTP parameters
 
@@ -42,6 +42,7 @@ The following core parameters must be supported:
 
 The following may be supported:
 
+ * mode
  * input_tokens_type
  * input_tokens_object_type
  * input_tokens_database
@@ -72,6 +73,14 @@ species. For example, 10090 for mouse.
 
 Implementors may not require this if they are caable of inferring the
 taxon from the gene IDs
+
+### mode
+
+One of:
+
+ * synchronous
+ * asynchronous
+
 
 ### input_tokens_type
 
