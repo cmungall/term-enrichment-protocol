@@ -66,6 +66,14 @@ whitespace-delimited set of gene symbols.
 A value for this parameter is required, unless input_tokens is
 provided.
 
+NOTE: although the API would be cleaner if the provider did not have
+to perform text processing on the input field, allowing this as an
+option facilitates implementation of minimal front-ends that are just
+HTML forms.
+
+TODO: further specify this; in particular: gene sets vs ranked lists
+vs gene-value pairs.
+
 ### taxon
 
 This is the numeric portion of the NCBI Taxonomy ID for the input
