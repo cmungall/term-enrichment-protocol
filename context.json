@@ -47,6 +47,7 @@
     "Westfall_Young": "OBI:0200092",
     "Holm_Bonferroni": "OBI:0200066",
     "p_value": "OBI:0000175",
+    "pq_value": "OBI:0001442",
 
     "sample_size": "STATO:0000088",
 }
