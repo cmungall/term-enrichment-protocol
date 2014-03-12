@@ -43,18 +43,22 @@ Each result object represents an over (or under) represented gene
             id: <CLASSID>
             label: <LABEL>
         },              
-        number_in_population : <INT>,  ## REQUIRED
-        number_in_sample : <INT>,      ## REQUIRED
+        population_size : <INT>,  
+        enriched_class_population_size : <INT>, 
+        sample_size : <INT>,      
+        enriched_class_sample_size : <INT> ,
         expected : NUMBER, 
         direction : ( "under" OR "over"),
         p_value : NUMBER,
+        fold_change : NUMBER,
         <KEY_1> : <VALUE(S)_1>,
         <KEY_2> : <VALUE(S)_2>,
         ...
     }
 
 The semantics of each field are provided in the json LD context, which
-maps each key to an ontology class. See the file context.json, in this directory
+maps each key to an ontology class. See the file
+[context.json](context.json), in this directory.
 
 The implementor may choose to provide their own keys, but they should
 all be described in a local context.json file.
