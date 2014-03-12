@@ -200,7 +200,35 @@ If a value for aspect is passed, then the implementor MUST run the
 algorithm over a subset of the ontology that includes all and only
 subclasses of (i.e. is_a descendants) of the specified class.
 
+TODO: decide whether we allow folding of annotation slimming as part
+of the subset. For example, pantherdb supports:
+
+ * molecular_function
+ * biological_process
+ * cellular_location
+ * molecular_function_exp
+ * biological_process_exp
+ * cellular_location_exp
+
+Where "biological_process_exp" is the same as filtering on biological_process and only including exp evidence
+
 ### subset
 
 If specified, and supported, the implementation MUST use only classes
-in the specified subset (aka GO slim)
+in the specified subset (aka GO slim).
+
+
+### exclude_evidence_type
+
+Example:
+
+ * exclude_evidence_type=IEA
+
+The value may be a GAF evidence code or an ECO class ID. E.g.
+
+ * exclude_evidence_type=ECO:0000501
+
+For multiple settings are provided, then the union of all values forms
+the exclusion set.
+
+TODO: decide whether closure over the ECO hierarchy is assumed

@@ -1,0 +1,30 @@
+{
+    "tool" : {
+        "name" : "pantherdb",
+        "registry_id" : "TODO"
+    },
+    "ontologies" : {
+        "ontology_id": "go",
+        "version" : "2014-03-01"
+    }
+    "association_sets" : [
+    ],
+    "parameters" : [
+        {
+            "name" : "taxon",
+            "values_from" : "qfo"
+        },
+        {
+            "name" : "ontology",
+            "supported" : ["go"]
+        },
+        {
+            "name" : "exclude_evidence",
+            "default" : [],
+            "supported" : ["IEA"],
+        },
+        
+    ],
+
+
+}

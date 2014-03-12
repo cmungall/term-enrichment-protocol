@@ -16,7 +16,9 @@ E.g.
 
 ### metadata object
 
-    metadata : {
+This is the top level object
+
+    {
         tool : TOOLINFO,
         ontologies : [ONT1, ONT2, ],
         association_sets : [ASSOCSET1, ASSOCSET2, ],
