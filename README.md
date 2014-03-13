@@ -24,6 +24,8 @@ GO website, facilitated via a *standard protocol*. Tool providers
 implementing this protocol can be hooked in to the GO website, after
 registering their tool.
 
+![image](images/seqdiag.png)
+
 At this stage the protocol is not finalized, we are soliciting
 comments. Currently pantherdb.org implements an earlier version of this
 protocol, this is what is currently driving the new GO website on
@@ -32,11 +34,18 @@ http://beta.geneontology.org
 The protocol is designed to be simple to implement for basic
 implementations, yet more extensible for advanced uses.
 
+
 ## Default GO client
 
 The protocol allows any client to connected to any server provided the
 server implements the protocol. In addition, downstream components can
 be hooked in - e.g. a 3rd party visualization can be hooked.
+
+The current GO client can be tested via:
+
+ * http://beta.geneontology.org
+ * http://amigo2.berkeleybop.org/cgi-bin/amigo2/rte
+
 
 ## Documentation
 
